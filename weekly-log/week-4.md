@@ -1,5 +1,7 @@
 # GenPT-Live in TouchDesigner — Monday Documentation Log
 
+![0921 Screenshot](../Images/0921-1.png)
+
 **Date:** Monday, September 21, 2026  
 **Project:** `GenPT_Native_Feedback.1.toe`  
 **Platform:** macOS, TouchDesigner 2025.32280
@@ -20,10 +22,22 @@ The basic test used a generated TOP connected to a Null TOP. This verified the c
 
 Six reference images were loaded into TouchDesigner with Movie File In TOPs. Each image was normalized to the same output canvas so blends would not change the final aspect ratio.
 
+
+![246](../Images/e976e0b4f0b9c912910ba061d043c628.jpg)
+
+![245](../Images/dfa5304d25a04112052fc601f3d6c174.jpg)
+
+![250](../Images/1b852836d4481ad58f7e10191807875b.jpg)
+
+![249](../Images/b2252b31321f133e13aab51d8b2a70f7.jpg)
+
+![242](../Images/0516ff61907ed7a53123f2a95367b2e7.jpg)
+
+![243](../Images/eb5217a1e7960095d43afa26522db7e4.jpg)
+
 The laptop microphone was connected through an Audio Device In CHOP. Its signal was analyzed, smoothed, and scaled into a usable level. That level controlled image blending, motion, feedback strength, and other visual parameters.
 
-
-![0921 Screenshot](../Images/0921-1.png)
+![](../Images/Screenshot%202026-09-23%20at%2011.46.07%20PM.png)
 
 ## 3. Translating GenPT-Live ideas without Stable Diffusion
 
@@ -46,6 +60,7 @@ The TouchDesigner version used these stages:
 - `merge_memory` and `merge_strips` combined the new image with the stored material.
 - `loop_frame` sent the result back into the feedback loop.
 
+![](../Images/Screenshot%202026-09-23%20at%2011.46.32%20PM.png)
 
 ![](../Images/0921-2.png)
 
@@ -82,6 +97,7 @@ The final treatment used a GLSL TOP to:
 
 The result is a native TouchDesigner version of GenPT-Live’s pixel-fragment feedback language, with the fragments coming directly from the live image rather than from a diffusion model.
 
+![](../Images/Screenshot%202026-09-23%20at%2011.54.07%20PM.png)
 ## 7. Final working structure
 
 ```text
