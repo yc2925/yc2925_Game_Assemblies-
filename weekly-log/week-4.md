@@ -22,7 +22,8 @@ Six reference images were loaded into TouchDesigner with Movie File In TOPs. Eac
 
 The laptop microphone was connected through an Audio Device In CHOP. Its signal was analyzed, smoothed, and scaled into a usable level. That level controlled image blending, motion, feedback strength, and other visual parameters.
 
-![Initial audio-reactive image output](/Users/retochen/Documents/GitHub/yc2925_Game_Assemblies-/Images/0921-1.png)
+
+![0921 Screenshot](../Images/0921-1.png)
 
 ## 3. Translating GenPT-Live ideas without Stable Diffusion
 
@@ -45,7 +46,8 @@ The TouchDesigner version used these stages:
 - `merge_memory` and `merge_strips` combined the new image with the stored material.
 - `loop_frame` sent the result back into the feedback loop.
 
-![Feedback network showing history, memory, strips, and loop output](/Users/retochen/Desktop/Screenshot%202026-09-21%20at%2010.22.15%E2%80%AFPM.png)
+
+![](../Images/0921-2.png)
 
 This reproduced the visual logic of GenPT-Live—image memory, transformed fragments, and iterative feedback—using TOPs instead of an AI diffusion model.
 
@@ -63,7 +65,7 @@ The first approach used a timed image cycle, which felt like a slideshow. That a
 
 The goal became a continuous field of six images: sound changes the balance and movement of the images while all six remain part of the composition.
 
-![Audio-reactive TouchDesigner output with the image and pixel effects visible](/Users/retochen/Desktop/Screenshot%202026-09-21%20at%2010.29.38%E2%80%AFPM.png)
+![](../Images/0921-3.png)
 
 ## 6. Stretched-pixel treatment
 
