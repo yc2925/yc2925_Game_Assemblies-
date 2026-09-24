@@ -22,7 +22,7 @@ Six reference images were loaded into TouchDesigner with Movie File In TOPs. Eac
 
 The laptop microphone was connected through an Audio Device In CHOP. Its signal was analyzed, smoothed, and scaled into a usable level. That level controlled image blending, motion, feedback strength, and other visual parameters.
 
-![Initial audio-reactive image output](/Users/retochen/Desktop/Screenshot%202026-09-21%20at%208.34.02%E2%80%AFPM.png)
+![Initial audio-reactive image output](/Users/retochen/Documents/GitHub/yc2925_Game_Assemblies-/Images/0921-1.png)
 
 ## 3. Translating GenPT-Live ideas without Stable Diffusion
 

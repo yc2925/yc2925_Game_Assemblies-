@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "weekly-log/week-4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "week-4"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "weekly-log/week-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "weekly-log/week-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "weekly-log/week-4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,5 +189,16 @@
     }
   },
   "active": "0fbb2d9906cc8cbb",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "README.md",
+    "weekly-log/week-4.md",
+    "Images/0921-3.png",
+    "Images/0921-2.png",
+    "Images/0921-1.png",
+    "Images/Screenshot 2026-09-21 at 10.29.38 PM.png",
+    "Images/Screenshot 2026-09-21 at 10.22.15 PM.png",
+    "Images/Screenshot 2026-09-21 at 8.34.02 PM.png",
+    "Images",
+    "untitled folder"
+  ]
 }
